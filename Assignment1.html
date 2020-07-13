@@ -1,0 +1,22 @@
+Write a JAVASCRIPT program to display the current day and time in the following format
+
+<html>
+    <head>
+        <h2>Display the current day and time</h2>
+    </head>
+
+    <body> 
+      
+        <script>  
+        var date=new Date();
+        var weekday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+        document.write("Today is: "+weekday[date.getDay()]+"<br>");
+        
+        document.write("Current Time is : ")
+        document.write(date.getHours()+":"+date.getMinutes()+":"+date.getSeconds());
+        </script>  
+
+    
+    </body>
+</html>
