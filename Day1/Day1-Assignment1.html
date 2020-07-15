@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Function</title>
+</head>
+<body>
+    <script src="test.js"></script>
+    <script>
+        var a={name:"Poonam",age:"24",city:"Mexico"}   
+        var b={name:"Archana",age:"24",city:"India"}
+        var c={name:"Keyur",age:"24",city:"Russia"}
+
+        console.time("Time taken");
+        console.log("Hello");
+        console.error("Error Occurred");
+        console.warn("This is just an warning");
+        //console.log({a,b,c});
+        console.table({a,b,c});
+        console.log('%c Custom Message:How are you','color:yellow');
+        console.timeEnd("Time taken");
+        
+    </script>
+</body>
+</html>

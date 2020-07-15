@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var Let Const</title>
+</head>
+<body>
+    // Var-Globally declared
+    <script>
+    var name="Poonam";//string
+    var age=24;//number
+    var canfly=false;//boolean
+    var languages=Array('Hindi','Marathi','English');//array
+    var friends={
+        name:"Archana",
+        hobby:"Coding"
+    };//object
+
+    var a;//undefined
+    console.log(a);
+
+    //Let-To maintain the scope the variable-local variable
+    {
+        let name ="Keyur";
+        console.log("Using Let:",name);
+    }
+
+    console.log(name);
+
+    // Const=Constant-Initialize the while declaring and reasigning the values to const variable is not allowed|| arrays can be partially replaced not complete array
+
+    const country= "India";
+    console.log(country);
+    //country='UK';
+
+    const fruits=["mango","apple"];
+    console.log(fruits);
+    fruits.push('banana');
+    console.log(fruits);
+
+/*
+    var declarations are globally scoped or function scoped while let and const are block scoped.
+    var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+    var variables are initialized with undefined, let and const variables are not initialized.
+    While var and let can be declared without being initialized, const must be initialized during declaration.
+*/
+     
+</script>    
+</body>
+</html>

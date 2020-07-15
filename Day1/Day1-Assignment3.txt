@@ -1,0 +1,23 @@
+Data Types in JavaScript:
+
+Following are the data types in JavaScript 
+1.String-To be mention in double quotes
+var x="Hello World";
+
+2.Number-Without double quotes otherwise the value would be considered as string
+var x=24;
+
+3.Boolean-Value is either true or false and is mentioned without double quotes
+var x=true;
+
+4.Undefined- Value is not assigned while declaring the variable the output dispalyed is undefined
+var x;
+
+5.Null- Value is directly assigned as null to the declared variable
+var x=null;
+
+6.Object-JavaScript objects are written with curly braces {} and Object properties are written as name:value pairs, separated by commas.
+var x={fname:"Poonam", lname:"Chauhan"};
+
+7.Array-JavaScript arrays are used to store multiple values in a single variable.
+var x=["HTML","CSS","JS"];
